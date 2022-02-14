@@ -1,0 +1,52 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bck1"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add student"
+        android:id="@+id/dasgBoardbtn1"
+        android:layout_margin="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add faculty"
+        android:id="@+id/dasgBoardbtn2"
+        android:layout_margin="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search student"
+        android:id="@+id/dasgBoardbtn3"
+        android:layout_margin="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="search faculty"
+        android:id="@+id/dasgBoardbtn4"
+        android:layout_margin="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="view website"
+        android:id="@+id/dasgBoardbtn5"
+        android:layout_margin="15dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:id="@+id/dasgBoardbtn6"
+        android:layout_margin="15dp"/></LinearLayout>

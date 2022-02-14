@@ -1,0 +1,94 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bck1"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="name"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/std_name"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="roll no"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/std_roll_no"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="admission number"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+
+    <EditText
+        android:id="@+id/std_addmn_no"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bck3"
+        android:inputType="number"
+        android:padding="6dp" />
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="college name"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/std_clg_name"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck2"
+        android:text="submit"
+        android:id="@+id/std_sub_btn1"
+        android:layout_margin="40dp"
+/>
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck2"
+        android:text="back to dash"
+        android:id="@+id/std_sub_btn2"
+        android:layout_margin="40dp"
+
+        />
+</LinearLayout>

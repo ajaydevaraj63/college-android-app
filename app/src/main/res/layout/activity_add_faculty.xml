@@ -1,0 +1,110 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bck1"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty name"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:id="@+id/fclt_name"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="department"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/fclt_dpmt"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="qualification"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/fclt_qlf"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="mobile number"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/fclt_num"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email id"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/fclt_mail"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck2"
+        android:text="submit"
+        android:id="@+id/fclt_sub_btn1"
+        android:layout_margin="40dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck2"
+        android:text="back to dash"
+        android:id="@+id/fclt_sub_btn2"
+        android:layout_margin="40dp"
+
+        />
+</LinearLayout>

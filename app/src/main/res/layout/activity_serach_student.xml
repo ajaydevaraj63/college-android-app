@@ -1,0 +1,39 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bck1"
+    android:orientation="vertical"
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="admission number"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/search_std_adsn_no"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck2"
+        android:text="search"
+        android:id="@+id/search_std_btn1"
+        android:layout_margin="40dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bck2"
+        android:text="back to dash"
+        android:id="@+id/search_std_btn2"
+        android:layout_margin="40dp"/>
+</LinearLayout>

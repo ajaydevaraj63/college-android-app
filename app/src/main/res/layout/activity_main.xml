@@ -1,0 +1,55 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bck1"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+  <TextView
+
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="email id"
+      android:layout_margin="5dp"
+      android:textSize="12dp"
+     />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/mailid"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/pswd"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="login"
+        android:id="@+id/sbt1"
+        android:layout_margin="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to register"
+        android:id="@+id/sbt2"
+        android:layout_margin="5dp"
+        />
+</LinearLayout>

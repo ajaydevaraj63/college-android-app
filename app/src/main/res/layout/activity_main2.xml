@@ -1,0 +1,111 @@
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/bck1"
+    android:orientation="vertical"
+
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="enter name"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:id="@+id/p_name"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="contact number"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:id="@+id/ph_no"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="email id"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:id="@+id/mail_id"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="password"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/pass_id1"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="confirm password"
+        android:layout_margin="5dp"
+        android:textSize="12dp"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:id="@+id/pass_id2"
+        android:layout_margin="5dp"
+        android:padding="6dp"
+        android:background="@drawable/bck3"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="register"
+        android:id="@+id/sbt3"
+        android:layout_margin="5dp"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:background="@drawable/bck2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="go to login"
+        android:id="@+id/sbt4"
+        android:layout_margin="5dp"
+        />
+
+
+</LinearLayout>
