@@ -4,12 +4,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.AppCompatButton;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
 public class DashboardActivity extends AppCompatActivity {
    AppCompatButton b1,b2,b3,b4,b5,b6;
+   SharedPreferences mypreferences;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -19,7 +21,8 @@ public class DashboardActivity extends AppCompatActivity {
     b3=findViewById(R.id.dasgBoardbtn3);
     b4=findViewById(R.id.dasgBoardbtn4);
     b5=findViewById(R.id.dasgBoardbtn5);
-        b6=findViewById(R.id.dasgBoardbtn6);
+    b6=findViewById(R.id.dasgBoardbtn6);
+    mypreferences=getSharedPreferences("login",MODE_PRIVATE);
     b1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -58,6 +61,9 @@ public class DashboardActivity extends AppCompatActivity {
         b6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                SharedPreferences.Editor MyEdit= mypreferences.edit();
+                MyEdit.clear();
+                MyEdit.commit();
                 Intent a=new Intent(DashboardActivity.this,MainActivity.class);
                 startActivity(a);
             }
